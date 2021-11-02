@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    border: 5px solid gold;
+    border-radius: 50%;
+    background: url("https://cssanimation.rocks/images/posts/clocks/ios_clock.svg") center;
+    background-repeat: no-repeat;
+    background-size: 88%;
+    margin-left: 350px;
+}
+
+.seconds {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 12rem;
+    width: .1rem;
+    background-color: tomato;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+}
+
+.minute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 9rem;
+    width: .3rem;
+    border-radius: 20px;
+    background-color: black;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+}
+
+.hours {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 6rem;
+    width: .5rem;
+    background-color: black;
+    border-radius: 15px;
+    transform: translateX(-50%);
+    transform-origin: 50% 0;
+}
+#digital-clock{
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 333px;
+    font-size: 60px;
+    background-color: black;
+    margin-bottom: 20px;
+}
